@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feed de instagram</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+         <script src="https://kit.fontawesome.com/072e5df971.js" crossorigin="anonymous"></script>
+
+</head>       
+<body>
+    <nav class="navbar navbar-light bg-light py-3">
+    <div class="container">
+    <div class="row w-100">
+    <div class="col-9">
+        <i class="fa-brands fa-instagram fa-xl"></i>
+        <h5 class="d-inline-block fs-5">Instagram</h5>
+    </div>
+    <div class="col-3">
+        <div class="row"> 
+            <div class="col-8">  
+                <button type="button" class="btn btn-success" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Create a new post </button>
+            </div>
+            <div class="col-4">
+                <div class="dropdown">  
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i></button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                        <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                        <li> <hr class="dropdown-divider"> </li>
+                        <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                    </ul>
+                </div>  
+            </div>   
+            </div>
+        </div>     
+    </div>
+</div>
+</nav>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog"> 
+        <div class="modal-content">  
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Caption:</h6>
+                <textarea class="form-control" placeholder="Add the caption of your post here"
+                id="floatingTextarea2"></textarea>
+                <div class="row p-2">
+                    <button class="col-1 border rounded p-1 m-1 btn-light"><i class="fa-solid fa-grid"></i>
+                    </button>
+                    <button class="col-1 border rounded p-1 m-1 btn-light">
+                    <i class="fa-solid fa-location-dot"></i>
+                    </button>
+                </div>
+            </div>   
+            <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             <button type="button" class="btn btn-success">Publish</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid p-2">
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+            role="tab" aria-controls="home" aria-selected="true"><iclass="fa-solid fa-table-cells"></i>
+        </button>
+    </li>
+    <li class="nav-item" role="presentation"><button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+        role="tab" aria-controls="profile" aria-selected="false"><i class="fa-solid fa-square"></i>
+    </button>
+    </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active overflow-hidden" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="row">  
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse3.mm.bing.net/th?id=OIP.7XBQSLzYI33vt9UQc7GXsAHaE7&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse3.mm.bing.net/th?id=OIP.yIUZ52E_2OQPyY00EaqnSwHaE7&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse1.mm.bing.net/th?id=OIP.gZx9HHf88EG7OYsvzDLu8QHaE8&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+            </div>    
+            <div class="row">
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse4.mm.bing.net/th?id=OIP.37Z5O7dvJVhRrmdQxrDDpAHaE5&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse2.mm.bing.net/th?id=OIP.c7ph2d4dPTCGw2J_2obZtQHaE3&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse2.mm.bing.net/th?id=OIP.sKzV2RA30xglpJT6oZQHugHaE8&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse3.mm.bing.net/th?id=OIP.V33xfAnWO5s3jmvZys-fVwHaEK&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>    
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse3.mm.bing.net/th?id=OIP.8DaM3rXr6YGaW7R1Ap0ZDwHaE7&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-4 p-1"><img style="height: 30vw; object-fit: cover;" src="https://tse2.mm.bing.net/th?id=OIP.vPDcmFDUoYNXE8sn9eLdLwHaE7&pid=Api&P=0&h=220" class="img-fluid w-100" alt="">
+                </div> 
+    </div>
+</div>
+<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+    <div class="row my-4"> 
+        <div class="col-6 mx-auto border rounded p-0">  
+            <div class="row p-1">
+                <div class="col-10 fs-4">My ciudad favorita!!!</div>
+                <div class="col-2 fs-5 align-middle">08/26</div>
+            </div>
+            <img style="object-fit: cover;" src="https://tse4.mm.bing.net/th?id=OIP.QcxgSHCzK3P5sm_tOwMsoQHaE8&pid=Api&P=0&h=220" class="img-fluid w-100 col-12" alt=""/>
+            <div class="row p-1">
+                <strong>2999 Likes</strong> 
+                <p>Esta es la ciudad de New york</p>
+        </div>
+    </div>
+</div>
+<div class="row my-4">
+    <div class="col-6 mx-auto border rounded p-0">
+        <div class="row p-1">
+            <div class="col-10 fs-4"> El central park</div>
+            <div class="col-2 fs-5 align-middle">09/06</div>
+        </div>
+        <img style="object-fit: cover;" src="https://tse1.mm.bing.net/th?id=OIP.LYmXqpAYyWkONwxipqOj1AHaEK&pid=Api&P=0&h=220" class="img-fluid w-100 col-12" alt=""/>
+        <div class="row p-1">
+            <strong>369123 Likes</strong>
+            <p>Esta foto me encanta!!!</p>
+        </div>
+    </div>        
+</div>
+<div class="row my-4">
+    <div class="col-6 mx-auto border rounded p-0">  
+        <div class="row p-1">
+            <div class="col-10 fs-4">OMG!!! esto me encanta!!!</div>
+            <div class="col-2 fs-5 align-middle">09/10</div>  
+        </div>
+        <img style="object-fit: cover;" src="https://tse3.mm.bing.net/th?id=OIP.J_mlwkn1qNJl_49o1PSPuQHaE5&pid=Api&P=0&h=220" class="img-fluid w-100 col-12" alt=""/> 
+        <div class="row p-1">
+            <strong>2256 Likes</strong>
+            <p>Un lugar para disfrutar!!!</p>
+        </div>
+    </div>
+</div>  
+</div>
+</div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>   
+</body>
+</html>
